@@ -1,0 +1,12 @@
+body {
+  background-color: black;
+}
+
+.customTextField input {
+  border: 1px solid white;
+  color: white;
+}
+
+.customBox {
+  color: white;
+}
