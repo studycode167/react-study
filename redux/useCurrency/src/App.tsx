@@ -4,23 +4,23 @@ import { setText } from './redux/reducer';
 import { useEffect, useState } from 'react';
 import { fetchCurrencyRates } from './api';
 import { Button, Box, TextField } from '@mui/material';
-import styled, { createGlobalStyle } from 'styled-components';
+// import styled, { createGlobalStyle } from 'styled-components';
 
-// Styled components
-const GlobalStyle = createGlobalStyle`
-  body {
-    background-color: black;
-  }
-`;
+// // Styled components
+// const GlobalStyle = createGlobalStyle`
+//   body {
+//     background-color: black;
+//   }
+// `;
 
-const CustomTextField = styled(TextField)`
-  border: 1px solid white;
-  color: white;
-`;
+// const CustomTextField = styled(TextField)`
+//   border: 1px solid white;
+//   color: white;
+// `;
 
-const CustomBox = styled(Box)`
-  color: white;
-`;
+// const CustomBox = styled(Box)`
+//   color: white;
+// `;
 // customhook 정의
 const useCurrency = () => {
   const [currencyRates, setCurrencyRates] = useState<any>(null);
