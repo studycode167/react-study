@@ -70,7 +70,7 @@ function App() {
   return (
     <Box>
       <Box height="100vh" display="flex" flexDirection="column" alignItems="center" justifyContent="center">
-        <TextField className="costom-textfield" value={text} onChange={handleTextFieldChange} />
+        <TextField className="custom-textfield" value={text} onChange={handleTextFieldChange} />
         <Box marginTop="20px">
           <Button variant="contained" onClick={handleSendClick}>
             보내기
